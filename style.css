@@ -62,7 +62,7 @@
 
   .controls { display: flex; justify-content: center; margin: 22px 0 6px; }
   .bigBtn {
-    background: #f1e9db; color: #fff; border: none; border-radius: 10px;
+    background: #f1e9db; color: #6b5a44; border: none; border-radius: 10px;
     font-size: 15px; font-weight: 600; padding: 12px 22px; cursor: pointer;
     font-family: inherit; letter-spacing: .3px;
   }
