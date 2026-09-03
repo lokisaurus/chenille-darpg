@@ -236,7 +236,7 @@ function phenotype(g) {
         else base = aDisplay(g) + ' merle';
       }
       parts.push(base);
-      if (has(g, 'E', 'Em')) parts.push('dark ' + eu + ' mask');
+      if (has(g, 'E', 'Em') && !has(g, 'K', 'K')) parts.push('dark ' + eu + ' mask');
     }
     const w = whitePhrase(g);
     if (w) parts.push(w);
